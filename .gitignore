@@ -1,0 +1,37 @@
+# Virtual Environment
+venv/
+env/
+
+# API Keys
+.env
+*.env
+
+# Mac Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Test outputs (agar chahein to)
+# output/
+# test_results/
+
+# Generated document files
+*.pdf
+*.docx
+*.xlsx
+*.json

@@ -1,0 +1,54 @@
+# Required Python packages for QA Documentation Generator
+# Complete suite: CLI + Web UI + Confluence Integration
+
+# ============================================================================
+# CORE DEPENDENCIES
+# ============================================================================
+
+# Anthropic Claude API - AI-powered generation
+anthropic>=0.39.0
+
+# PDF Processing
+PyPDF2>=3.0.0
+pdfplumber>=0.11.0
+
+# Document Generation
+python-docx>=1.1.0      # Word documents (.docx)
+openpyxl>=3.1.0         # Excel files (.xlsx)
+
+# HTTP Requests - Confluence API
+requests>=2.31.0
+
+# ============================================================================
+# WEB UI DEPENDENCIES
+# ============================================================================
+
+# Streamlit - Beautiful web interface
+streamlit>=1.28.0
+
+# ============================================================================
+# OPTIONAL DEPENDENCIES
+# ============================================================================
+
+# Environment variables from .env file
+# python-dotenv>=1.0.0
+
+# PDF Generation from DOCX (optional)
+# docx2pdf>=0.1.8
+
+# Progress bars for CLI (optional)
+# tqdm>=4.66.0
+
+# ============================================================================
+# INSTALLATION
+# ============================================================================
+# 
+# Install all dependencies:
+#   pip3 install -r requirements.txt
+#
+# Or install specific groups:
+#   Core only:     pip3 install anthropic PyPDF2 python-docx openpyxl requests
+#   Web UI:        pip3 install streamlit
+#   Confluence:    pip3 install requests (already in core)
+#
+# ============================================================================
